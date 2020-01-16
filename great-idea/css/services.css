@@ -78,7 +78,7 @@ section#facts img {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
     section#services-list {
         flex-direction: column;
     }
