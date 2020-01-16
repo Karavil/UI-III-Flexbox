@@ -18,21 +18,25 @@ h6 {
 
 h1 {
    line-height: 1;
-   letter-spacing: 0.3rem;
+   letter-spacing: 0.3vw;
 }
 
 h2 {
-   letter-spacing: 0.1rem;
-   font-size: 1.8rem;
+   letter-spacing: 0.1vw;
+   font-size: 2.5vw;
 }
 
 h3 {
-   letter-spacing: 0.1rem;
-   font-size: 1.45rem;
+   letter-spacing: 0.1vw;
+   font-size: 2vw;
 }
 
 p {
-   font-size: 1.2vw;
+   font-size: 1.5vw;
+}
+
+li {
+   font-size: 1.5vw;
 }
 
 .button {
@@ -138,6 +142,6 @@ section.contact address p {
 
 footer {
    text-align: center;
-   font-size: 1.3vw;
+   font-size: 1vw;
    padding: 3% 0;
 }
