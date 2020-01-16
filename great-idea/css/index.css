@@ -4,7 +4,7 @@
 }
 
 body {
-   padding: 4%;
+   padding: 3vh 4%;
 }
 
 h1,
@@ -18,16 +18,38 @@ h6 {
 
 h1 {
    line-height: 1;
-   letter-spacing: 0.3vw;
+   letter-spacing: 0.3rem;
 }
 
 h2 {
-   letter-spacing: 0.1vw;
-   font-size: 1.8vw;
+   letter-spacing: 0.1rem;
+   font-size: 1.8rem;
+}
+
+h3 {
+   letter-spacing: 0.1rem;
+   font-size: 1.45rem;
 }
 
 p {
-   font-size: 1.3vw;
+   font-size: 1.2vw;
+}
+
+.button {
+   color: black;
+   width: 35%;
+   padding: 1% 10%;
+   font-size: 1vw;
+   border-radius: 2px;
+   border: 0.1vw solid black;
+   text-decoration: none;
+   transition: 0.5s;
+}
+
+.button:hover {
+   cursor: pointer;
+   background: black;
+   color: white;
 }
 
 nav {
@@ -35,6 +57,7 @@ nav {
    justify-content: space-between;
    align-content: center;
    align-items: center;
+   margin-bottom: 1.5vh;
 }
 
 nav a.link {
@@ -70,22 +93,6 @@ section.banner #text-and-button h1 {
    margin: 0 0 5%;
 }
 
-section.banner #text-and-button a.button {
-   color: black;
-   width: 35%;
-   padding: 1% 10%;
-   font-size: 1vw;
-   border-radius: 2px;
-   border: 0.1vw solid black;
-   text-decoration: none;
-   transition: 0.5s;
-}
-
-section.banner #text-and-button a.button:hover {
-   cursor: pointer;
-   background: black;
-   color: white;
-}
 
 section.banner #innovation-image {
    width: 37%;

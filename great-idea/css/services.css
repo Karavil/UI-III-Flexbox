@@ -1,0 +1,33 @@
+
+#services-banner {
+    border-bottom: 0.15vh black solid;
+    padding-bottom: 1.5vh;
+}
+#services-banner .services-header-img {
+    width: 100%;
+}
+
+#services-banner h1{
+    margin: 2vh 0 1vh;
+    letter-spacing: 0.1rem;
+}
+
+
+section.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+    height: 75vh;
+    border-bottom: 0.15vh black solid;
+}
+div.service-item {
+    width: 48%;
+    background: rgb(216, 216, 216);
+    border: 2px black solid;
+    padding: 2vh 2vw;
+}
+
+div.service-item h3 {
+    margin: 0;
+}
