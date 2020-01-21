@@ -1,66 +1,148 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+   font-family: "Titillium Web", sans-serif;
+   /* border: 2px black solid; */
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+body {
+   padding: 3vh 4%;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: "Bangers", cursive;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+h1 {
+   line-height: 1;
+   letter-spacing: 0.3vw;
+   font-size: 3vw;
+}
+
+h2 {
+   letter-spacing: 0.1vw;
+   font-size: 2.5vw;
+}
+
+h3 {
+   letter-spacing: 0.1vw;
+   font-size: 2vw;
+}
+
+p {
+   font-size: 1.5vw;
+}
+
+li {
+   font-size: 1.5vw;
+}
+
+.button {
+   color: black;
+   width: 35%;
+   padding: 1% 10%;
+   font-size: 1vw;
+   border-radius: 2px;
+   border: 0.1vw solid black;
+   text-decoration: none;
+   transition: 0.5s;
+}
+
+.button:hover {
+   cursor: pointer;
+   background: black;
+   color: white;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   align-items: center;
+   margin-bottom: 1.5vh;
+}
+
+nav a.link {
+   font-size: 1.2vw;
+   color: gray;
+   text-decoration: none;
+}
+
+nav a.link:hover {
+   color: black;
+}
+
+.logo {
+   width: 14vw;
+}
+
+
+section.banner {
+   display: flex;
+   text-align: center;
+   border-bottom: 0.1vw solid black;
+   height: 60vh;
+   align-items: center;
+   justify-content: center;
+}
+
+section.banner #text-and-button {
+   width: 40%;
+}
+
+section.banner #text-and-button h1 {
+   font-size: 5vw;
+   margin: 0 0 5%;
+}
+
+
+section.banner #innovation-image {
+   width: 37%;
+}
+
+section.banner #innovation-image img {
+   width: 100%;
+}
+
+section.info-list {
+   margin-top: 4%;
+   border-bottom: 0.1vw solid black;
+   padding-bottom: 2%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+section.info-list .info-box {
+   width: 49%;
+}
+
+section.info-list .info-box.third {
+   width: 32.5%;
+}
+
+section.info-list img {
+   width: 100%;
+   margin: 2vh 0;
+}
+
+section.info-list .info-box #features {
+   width: 49%;
+}
+
+section.contact {
+   margin-top: 3%;
+}
+
+section.contact address p {
+   margin: 0.5% 0;
+}
+
+footer {
+   text-align: center;
+   font-size: 1vw;
+   padding: 3% 0;
+}
